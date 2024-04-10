@@ -1,0 +1,23 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid darkgreen;
+}
+
+.item__title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.item__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__link{
+    text-decoration: none;
+}

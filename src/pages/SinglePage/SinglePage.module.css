@@ -1,0 +1,36 @@
+.page{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.item{
+    display: flex; 
+    flex-direction: column;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    border: 2px solid darkgreen;
+    padding: 20px 25px;
+}
+
+.head__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment__text{
+    margin: 10px 0 5px;
+}
+
+.backBtn__box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.backBtn{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid darkgreen;
+}
